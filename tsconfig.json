@@ -2,6 +2,8 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "module":"ES2020",
+    "jsx":"react-jsx",
     "paths": {
       "@/*": [
         "./*"
@@ -16,6 +18,8 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
+    "nativewind-env.d.ts",
+    ".next/types/**/*.ts",
+    "next-env.d.ts"
   ]
 }

@@ -40,4 +40,4 @@ app-example
 
 # Firebase/Google config
 **/googleService-Info.plist
-**/google-service.json
+**/google-services.json

@@ -1,8 +1,8 @@
+import { Avatar, AvatarFallbackText, AvatarImage } from '@/src/components/ui/avatar';
+import { Button, ButtonText } from '@/src/components/ui/button';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { Avatar, AvatarFallbackText, AvatarImage } from '../../components/ui/avatar';
-import { Button, ButtonText } from '../../components/ui/button';
 import { useAuthStore } from '../../src/stores/auth/auth.store';
 
 export default function ProfileScreen() {

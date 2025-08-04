@@ -1,13 +1,13 @@
+import { Avatar, AvatarFallbackText, AvatarImage } from '@/src/components/ui/avatar';
+import { Button, ButtonText } from '@/src/components/ui/button';
+import { FormControl, FormControlError, FormControlErrorText, FormControlLabel, FormControlLabelText } from '@/src/components/ui/form-control';
+import { Input, InputField } from '@/src/components/ui/input';
 import { Ionicons } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { Avatar, AvatarFallbackText, AvatarImage } from '../../components/ui/avatar';
-import { Button, ButtonText } from '../../components/ui/button';
-import { FormControl, FormControlError, FormControlErrorText, FormControlLabel, FormControlLabelText } from '../../components/ui/form-control';
-import { Input, InputField } from '../../components/ui/input';
 import { useAuthStore } from '../../src/stores/auth/auth.store';
 
 interface RegisterFormData {

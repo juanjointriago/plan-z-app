@@ -14,6 +14,7 @@
 		CD2311CB23F7C33D6F6FF6F3 /* libPods-planzapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED17FA6D6902CB8610A04CEC /* libPods-planzapp.a */; };
 		DA7EF4D54F8609AEC14EE4A4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1287E2980929AB0622EFB835 /* PrivacyInfo.xcprivacy */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
+		824BBDA0279C41DAB00C951F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA53036489E84EADB932707D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = planzapp/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* planzapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "planzapp-Bridging-Header.h"; path = "planzapp/planzapp-Bridging-Header.h"; sourceTree = "<group>"; };
 		FA825F86E65155F4C487458B /* Pods-planzapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planzapp.release.xcconfig"; path = "Target Support Files/Pods-planzapp/Pods-planzapp.release.xcconfig"; sourceTree = "<group>"; };
+		BA53036489E84EADB932707D /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "planzapp/GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 				1287E2980929AB0622EFB835 /* PrivacyInfo.xcprivacy */,
+				BA53036489E84EADB932707D /* GoogleService-Info.plist */,
 			);
 			name = planzapp;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 				DA7EF4D54F8609AEC14EE4A4 /* PrivacyInfo.xcprivacy in Resources */,
+				824BBDA0279C41DAB00C951F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +369,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.purplewidget.planzapp;
-				PRODUCT_NAME = planzapp;
+				PRODUCT_NAME = "planzapp";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -400,7 +404,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.purplewidget.planzapp;
-				PRODUCT_NAME = planzapp;
+				PRODUCT_NAME = "planzapp";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;

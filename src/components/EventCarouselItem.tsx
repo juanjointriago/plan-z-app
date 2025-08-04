@@ -1,7 +1,7 @@
-import { Spinner } from '@/components/ui/spinner';
 import { Ionicons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Spinner } from './ui/spinner';
 
 export interface EventItem {
   id: number;

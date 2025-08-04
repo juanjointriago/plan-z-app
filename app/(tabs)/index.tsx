@@ -1,17 +1,17 @@
-import EventCarousel from '@/components/EventCarousel';
-import { Colors } from '@/constants/Colors';
+import EventCarousel from '@/src/components/EventCarousel';
+import { Colors } from '@/src/constants/Colors';
 import { useAuthStore } from '@/src/stores/auth/auth.store';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import {
-    Image,
-    SafeAreaView,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    useColorScheme,
-    View
+  Image,
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  useColorScheme,
+  View
 } from 'react-native';
 
 const pastEvents = [

@@ -1,3 +1,7 @@
+import EventCard from '@/src/components/EventCard';
+import EventFilters from '@/src/components/EventFilters';
+import EventDetailScreen from '@/src/components/screens/EventDetailScreen';
+import { Button, ButtonText } from '@/src/components/ui/button';
 import { Ionicons } from '@expo/vector-icons';
 
 import { LinearGradient } from 'expo-linear-gradient';
@@ -10,11 +14,7 @@ import {
   TextInput,
   View
 } from 'react-native';
-import EventCard from '../../components/EventCard';
-// eslint-disable-next-line import/no-unresolved
-import EventFilters from '@/components/EventFilters';
-import EventDetailScreen from '@/components/screens/EventDetailScreen';
-import { Button, ButtonText } from '@/components/ui/button';
+ 
 
 const upcomingEvents = [
   {

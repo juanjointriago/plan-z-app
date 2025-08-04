@@ -8,7 +8,7 @@ import { Avatar, AvatarFallbackText, AvatarImage } from '../../components/ui/ava
 import { Button, ButtonText } from '../../components/ui/button';
 import { FormControl, FormControlError, FormControlErrorText, FormControlLabel, FormControlLabelText } from '../../components/ui/form-control';
 import { Input, InputField } from '../../components/ui/input';
-import { useAuthStore } from '../../stores/auth/auth.store';
+import { useAuthStore } from '../../src/stores/auth/auth.store';
 
 interface RegisterFormData {
   username: string;

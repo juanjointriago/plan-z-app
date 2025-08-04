@@ -3,7 +3,7 @@ import { router } from 'expo-router';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { Avatar, AvatarFallbackText, AvatarImage } from '../../components/ui/avatar';
 import { Button, ButtonText } from '../../components/ui/button';
-import { useAuthStore } from '../../stores/auth/auth.store';
+import { useAuthStore } from '../../src/stores/auth/auth.store';
 
 export default function ProfileScreen() {
   const { user, logout } = useAuthStore();

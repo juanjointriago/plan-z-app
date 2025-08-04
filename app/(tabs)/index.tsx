@@ -1,17 +1,17 @@
 import EventCarousel from '@/components/EventCarousel';
 import { Colors } from '@/constants/Colors';
-import { useAuthStore } from '@/stores/auth/auth.store';
+import { useAuthStore } from '@/src/stores/auth/auth.store';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import {
-  Image,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  useColorScheme,
-  View
+    Image,
+    SafeAreaView,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    useColorScheme,
+    View
 } from 'react-native';
 
 const pastEvents = [
@@ -81,9 +81,7 @@ export default function HomeScreen() {
           >
             <View style={styles.headerContent}>
               <Image
-                source={{
-                  uri: "https://images.unsplash.com/photo-1611095564141-84beb3ab9b44?w=200&h=120&fit=crop"
-                }}
+                source={{uri:'adaptive-icon'}} 
                 style={styles.logo}
                 resizeMode="contain"
               />

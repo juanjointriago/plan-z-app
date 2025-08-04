@@ -1,4 +1,5 @@
 import { Ionicons } from '@expo/vector-icons';
+import { Image } from 'expo-image';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
@@ -6,7 +7,7 @@ import { Pressable, ScrollView, Text, View } from 'react-native';
 import { Button, ButtonText } from '../../components/ui/button';
 import { FormControl, FormControlError, FormControlErrorText, FormControlLabel, FormControlLabelText } from '../../components/ui/form-control';
 import { Input, InputField } from '../../components/ui/input';
-import { useAuthStore } from '../../stores/auth/auth.store';
+import { useAuthStore } from '../../src/stores/auth/auth.store';
 
 interface LoginFormData {
   username: string;
@@ -79,17 +80,7 @@ export default function LoginScreen() {
         }}>
           {/* Logo */}
           <View style={{ alignItems: 'center', marginTop: 16, marginBottom: 32 }}>
-            <View style={{ 
-              width: 128, 
-              height: 96, 
-              backgroundColor: '#f3f4f6', 
-              borderRadius: 8, 
-              marginBottom: 16,
-              justifyContent: 'center',
-              alignItems: 'center'
-            }}>
-              <Text style={{ color: '#6b7280', fontSize: 12 }}>Logo</Text>
-            </View>
+              <Image source={{uri:'adaptive-icon'}} style={{ width: 100, height: 80 }} alt='logo' />
             <Text style={{ 
               fontSize: 20, 
               fontWeight: '600', 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "580333960941",
+    "project_id": "plan-z-f36b8",
+    "storage_bucket": "plan-z-f36b8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580333960941:android:8be8707b15dcc0034c56e4",
+        "android_client_info": {
+          "package_name": "com.purplewidget.planzapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPgBLyJmaiKLdMZMq8j1vi150lkzGjO4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
